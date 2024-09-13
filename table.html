@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+
+
+
+<style>
+
+.mystyle
+{background:url(images/bg.jpg);
+background-size:100%;
+background-repeat:no repeat;
+background-attachment:fixed;
+}
+
+*{
+    text-decoration: none;
+    margin-top:.9%;
+}
+ .heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    color:#111;
+    padding-left: 35px;
+    display: inline;
+    margin-top: 0;
+}
+
+header .heading:hover{
+  margin-top:-10px;
+  color: rgb(145, 145, 145);
+  transition: 0.4s;
+
+}
+
+        
+        table{
+            width:65%;
+            margin:auto;
+            font-family: helvetica;
+    color: rgb(212, 209, 195);
+    font-family: Arial;
+ 
+            background:#373737;
+        }
+
+        table :hover{
+            cursor:pointer;
+            width:25%;
+            transition: 0.5s;
+        }
+
+        th{
+            background: rgb(212, 209, 195);
+            
+            font-family: helvetica;
+    font-weight: 700;
+    color: #373737;
+    font-size: 20px;
+            
+        }
+
+        tr:hover{
+            background: rgb(212, 209, 195);
+            color: #373737;
+        }
+
+        td:hover{
+            background:rgb(212, 209, 195);
+            color:#0c4b5d ;
+        }
+
+
+        @media only screen and (max-width:600px)
+        {
+            body{background: #afc5c5;}
+            table{
+                width: 80%;
+                font-size:10px
+            }
+        }
+
+        @media only screen and (min-width:768px)
+        {
+            body{background: #dff2f6;}
+            table{
+                width: 70%;
+                font-size:15px;
+            }
+        }
+    </style>
+</head>
+</style>
+
+<body class="mystyle">
+
+<a href="index.html" class="heading">Table</a>
+<hr>
+
+  <br><br>
+    <div id="table">
+        <table border="5" cellpadding="8">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Roll No</th>
+                    <th>Course</th>
+                    <th>Illustrator</th>
+                    <th>Photoshop</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Khushboo</td>
+                    <td>1475232</td>
+                    <td>B.Voc</td>
+                    <td>93</td>
+                    <td>89</td>
+                </tr>
+
+                <tr>
+                    <td>Shiv</td>
+                    <td>1468432</td>
+                    <td>B.Voc</td>
+                    <td>88</td>
+                    <td>84</td>
+                </tr>
+
+                <tr>
+                    <td>Tushar</td>
+                    <td>1473462</td>
+                    <td>UI/UX Design Course</td>
+                    <td>90</td>
+                    <td>78</td>
+                </tr>
+
+                <tr>
+                    <td>Yogesh</td>
+                    <td>1472672</td>
+                    <td>UI/UX Design Course</td>
+                    <td>74</td>
+                    <td>89</td>
+                </tr>
+
+                <tr>
+                    <td>Sumit</td>
+                    <td>1475232</td>
+                    <td>UI/UX Design Course</td>
+                    <td>83</td>
+                    <td>67</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+</body>
+</html>

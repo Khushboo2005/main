@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Banner
+        </title>
+      
+
+        <style>
+
+            .mystyle
+            {background:url(images/bg.jpg);
+            background-size:100%;
+            background-repeat:no repeat;
+            background-attachment:fixed;
+            }
+            
+            *{
+                text-decoration: none;
+                margin-top:.9%;
+            }
+             .heading{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 32px;
+                font-weight: 800;
+                color:#111;
+                padding-left: 35px;
+                display: inline;
+                margin-top: 0;
+            }
+            
+            header .heading:hover{
+              margin-top:-10px;
+              color: rgb(145, 145, 145);
+              transition: 0.4s;
+            
+            }
+    @keyframes runbanner
+    {
+        10%{left:0%;}
+        20%{left:-20.15%;}
+        30%{left:-20.15%;}
+        40%{left:-40.29%;}
+        50%{left:-40.29%;}
+        60%{left:-60.40%;}
+        70%{left:-60.40%;}
+    }
+
+    #banner
+    {
+        width:500%;
+    }
+
+    .image {
+        width: 19.94%;
+        height: 600px;
+        position: relative;
+        top: 0px;
+        left:0px;
+        box-shadow: 10px 10px 10px grey;
+        margin:5px;
+        animation:runbanner 18s infinite;}
+</style>
+<body class="mystyle">
+
+    <a href="index.html" class="heading">Banner Animation</a>
+    <hr>
+    <div id="banner">
+        <img class="image" src="images/banner.webp">
+        <img class="image" src="images/banner2.png">
+        <img class="image" src="images/banner3.png">
+        <img class="image" src="images/banner4.png">
+    </div>
+</body>
+</html>
